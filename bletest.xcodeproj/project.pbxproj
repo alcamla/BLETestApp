@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E3C8FB9163EBF82004841B3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E3C8FB8163EBF82004841B3 /* Default-568h@2x.png */; };
+		CF30184915A6BE7600712F9F /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = CF30184715A6BE7600712F9F /* 57x57.png */; };
+		CF30184A15A6BE7600712F9F /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = CF30184815A6BE7600712F9F /* 114x114.png */; };
+		CF34B40A15CFE1C900640DFB /* cr_arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = CF34B40715CFE1C900640DFB /* cr_arrow_left.png */; };
+		CF34B40B15CFE1C900640DFB /* cr_arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = CF34B40815CFE1C900640DFB /* cr_arrow_right.png */; };
+		CF34B40C15CFE1C900640DFB /* cr_image.png in Resources */ = {isa = PBXBuildFile; fileRef = CF34B40915CFE1C900640DFB /* cr_image.png */; };
+		CF6B76E215B02D1000506E29 /* ServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6B76E115B02D1000506E29 /* ServiceViewController.m */; };
+		CF71080F146AB59F00FEAD90 /* HeartRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF71080E146AB59F00FEAD90 /* HeartRateViewController.m */; };
+		CF710813146ADA3400FEAD90 /* Heart.png in Resources */ = {isa = PBXBuildFile; fileRef = CF710811146ADA3400FEAD90 /* Heart.png */; };
+		CF710814146ADA3400FEAD90 /* Human.png in Resources */ = {isa = PBXBuildFile; fileRef = CF710812146ADA3400FEAD90 /* Human.png */; };
+		CF710816146ADD6600FEAD90 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF710815146ADD6600FEAD90 /* QuartzCore.framework */; };
+		CFA3C47515B02EC5009FAD3B /* CRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA3C47415B02EC5009FAD3B /* CRViewController.m */; };
+		CFAD28C9146812F500DE9B23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAD28C8146812F500DE9B23 /* UIKit.framework */; };
+		CFAD28CB146812F500DE9B23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAD28CA146812F500DE9B23 /* Foundation.framework */; };
+		CFAD28CD146812F500DE9B23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAD28CC146812F500DE9B23 /* CoreGraphics.framework */; };
+		CFAD28D3146812F500DE9B23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFAD28D1146812F500DE9B23 /* InfoPlist.strings */; };
+		CFAD28D5146812F500DE9B23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAD28D4146812F500DE9B23 /* main.m */; };
+		CFAD28D9146812F500DE9B23 /* bletestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAD28D8146812F500DE9B23 /* bletestAppDelegate.m */; };
+		CFAD28DC146812F500DE9B23 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAD28DA146812F500DE9B23 /* MainStoryboard_iPhone.storyboard */; };
+		CFAD28DF146812F500DE9B23 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAD28DD146812F500DE9B23 /* MainStoryboard_iPad.storyboard */; };
+		CFAD28E2146812F500DE9B23 /* bletestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAD28E1146812F500DE9B23 /* bletestViewController.m */; };
+		CFAD28EA146812F500DE9B23 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAD28E9146812F500DE9B23 /* SenTestingKit.framework */; };
+		CFAD28EB146812F500DE9B23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAD28C8146812F500DE9B23 /* UIKit.framework */; };
+		CFAD28EC146812F500DE9B23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAD28CA146812F500DE9B23 /* Foundation.framework */; };
+		CFAD28F4146812F500DE9B23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFAD28F2146812F500DE9B23 /* InfoPlist.strings */; };
+		CFAD28F7146812F500DE9B23 /* bletestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAD28F6146812F500DE9B23 /* bletestTests.m */; };
+		CFAD290D146817CE00DE9B23 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAD290C146817CE00DE9B23 /* CoreBluetooth.framework */; };
+		CFAD29101468337B00DE9B23 /* PeripheralCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAD290F1468337B00DE9B23 /* PeripheralCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFAD28ED146812F500DE9B23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFAD28BB146812F500DE9B23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFAD28C3146812F500DE9B23;
+			remoteInfo = bletest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E3C8FB8163EBF82004841B3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CF30184715A6BE7600712F9F /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 57x57.png; path = ../57x57.png; sourceTree = "<group>"; };
+		CF30184815A6BE7600712F9F /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 114x114.png; path = ../114x114.png; sourceTree = "<group>"; };
+		CF34B40715CFE1C900640DFB /* cr_arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cr_arrow_left.png; sourceTree = "<group>"; };
+		CF34B40815CFE1C900640DFB /* cr_arrow_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cr_arrow_right.png; sourceTree = "<group>"; };
+		CF34B40915CFE1C900640DFB /* cr_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cr_image.png; sourceTree = "<group>"; };
+		CF6B76E015B02D1000506E29 /* ServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceViewController.h; sourceTree = "<group>"; };
+		CF6B76E115B02D1000506E29 /* ServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceViewController.m; sourceTree = "<group>"; };
+		CF71080D146AB59F00FEAD90 /* HeartRateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartRateViewController.h; sourceTree = "<group>"; };
+		CF71080E146AB59F00FEAD90 /* HeartRateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartRateViewController.m; sourceTree = "<group>"; };
+		CF710811146ADA3400FEAD90 /* Heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heart.png; sourceTree = "<group>"; };
+		CF710812146ADA3400FEAD90 /* Human.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Human.png; sourceTree = "<group>"; };
+		CF710815146ADD6600FEAD90 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CFA3C47315B02EC5009FAD3B /* CRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRViewController.h; sourceTree = "<group>"; };
+		CFA3C47415B02EC5009FAD3B /* CRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRViewController.m; sourceTree = "<group>"; };
+		CFAD28C4146812F500DE9B23 /* bletest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bletest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAD28C8146812F500DE9B23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CFAD28CA146812F500DE9B23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CFAD28CC146812F500DE9B23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CFAD28D0146812F500DE9B23 /* bletest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bletest-Info.plist"; sourceTree = "<group>"; };
+		CFAD28D2146812F500DE9B23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFAD28D4146812F500DE9B23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFAD28D6146812F500DE9B23 /* bletest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bletest-Prefix.pch"; sourceTree = "<group>"; };
+		CFAD28D7146812F500DE9B23 /* bletestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bletestAppDelegate.h; sourceTree = "<group>"; };
+		CFAD28D8146812F500DE9B23 /* bletestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bletestAppDelegate.m; sourceTree = "<group>"; };
+		CFAD28DB146812F500DE9B23 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		CFAD28DE146812F500DE9B23 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		CFAD28E0146812F500DE9B23 /* bletestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bletestViewController.h; sourceTree = "<group>"; };
+		CFAD28E1146812F500DE9B23 /* bletestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bletestViewController.m; sourceTree = "<group>"; };
+		CFAD28E8146812F500DE9B23 /* bletestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bletestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFAD28E9146812F500DE9B23 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CFAD28F1146812F500DE9B23 /* bletestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bletestTests-Info.plist"; sourceTree = "<group>"; };
+		CFAD28F3146812F500DE9B23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFAD28F5146812F500DE9B23 /* bletestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bletestTests.h; sourceTree = "<group>"; };
+		CFAD28F6146812F500DE9B23 /* bletestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bletestTests.m; sourceTree = "<group>"; };
+		CFAD290C146817CE00DE9B23 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		CFAD290E1468337B00DE9B23 /* PeripheralCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralCell.h; sourceTree = "<group>"; };
+		CFAD290F1468337B00DE9B23 /* PeripheralCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFAD28C1146812F500DE9B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF710816146ADD6600FEAD90 /* QuartzCore.framework in Frameworks */,
+				CFAD290D146817CE00DE9B23 /* CoreBluetooth.framework in Frameworks */,
+				CFAD28C9146812F500DE9B23 /* UIKit.framework in Frameworks */,
+				CFAD28CB146812F500DE9B23 /* Foundation.framework in Frameworks */,
+				CFAD28CD146812F500DE9B23 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAD28E4146812F500DE9B23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAD28EA146812F500DE9B23 /* SenTestingKit.framework in Frameworks */,
+				CFAD28EB146812F500DE9B23 /* UIKit.framework in Frameworks */,
+				CFAD28EC146812F500DE9B23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFAD28B9146812F500DE9B23 = {
+			isa = PBXGroup;
+			children = (
+				0E3C8FB8163EBF82004841B3 /* Default-568h@2x.png */,
+				CFAD28CE146812F500DE9B23 /* bletest */,
+				CFAD28EF146812F500DE9B23 /* bletestTests */,
+				CFAD28C7146812F500DE9B23 /* Frameworks */,
+				CFAD28C5146812F500DE9B23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFAD28C5146812F500DE9B23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFAD28C4146812F500DE9B23 /* bletest.app */,
+				CFAD28E8146812F500DE9B23 /* bletestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFAD28C7146812F500DE9B23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF710815146ADD6600FEAD90 /* QuartzCore.framework */,
+				CFAD290C146817CE00DE9B23 /* CoreBluetooth.framework */,
+				CFAD28C8146812F500DE9B23 /* UIKit.framework */,
+				CFAD28CA146812F500DE9B23 /* Foundation.framework */,
+				CFAD28CC146812F500DE9B23 /* CoreGraphics.framework */,
+				CFAD28E9146812F500DE9B23 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFAD28CE146812F500DE9B23 /* bletest */ = {
+			isa = PBXGroup;
+			children = (
+				CFA3C47315B02EC5009FAD3B /* CRViewController.h */,
+				CFA3C47415B02EC5009FAD3B /* CRViewController.m */,
+				CFAD28D7146812F500DE9B23 /* bletestAppDelegate.h */,
+				CFAD28D8146812F500DE9B23 /* bletestAppDelegate.m */,
+				CFAD28DA146812F500DE9B23 /* MainStoryboard_iPhone.storyboard */,
+				CFAD28DD146812F500DE9B23 /* MainStoryboard_iPad.storyboard */,
+				CFAD28E0146812F500DE9B23 /* bletestViewController.h */,
+				CFAD28E1146812F500DE9B23 /* bletestViewController.m */,
+				CFAD28CF146812F500DE9B23 /* Supporting Files */,
+				CFAD290E1468337B00DE9B23 /* PeripheralCell.h */,
+				CFAD290F1468337B00DE9B23 /* PeripheralCell.m */,
+				CF71080D146AB59F00FEAD90 /* HeartRateViewController.h */,
+				CF71080E146AB59F00FEAD90 /* HeartRateViewController.m */,
+				CF6B76E015B02D1000506E29 /* ServiceViewController.h */,
+				CF6B76E115B02D1000506E29 /* ServiceViewController.m */,
+			);
+			path = bletest;
+			sourceTree = "<group>";
+		};
+		CFAD28CF146812F500DE9B23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF34B40715CFE1C900640DFB /* cr_arrow_left.png */,
+				CF34B40815CFE1C900640DFB /* cr_arrow_right.png */,
+				CF34B40915CFE1C900640DFB /* cr_image.png */,
+				CF30184715A6BE7600712F9F /* 57x57.png */,
+				CF30184815A6BE7600712F9F /* 114x114.png */,
+				CF710811146ADA3400FEAD90 /* Heart.png */,
+				CF710812146ADA3400FEAD90 /* Human.png */,
+				CFAD28D0146812F500DE9B23 /* bletest-Info.plist */,
+				CFAD28D1146812F500DE9B23 /* InfoPlist.strings */,
+				CFAD28D4146812F500DE9B23 /* main.m */,
+				CFAD28D6146812F500DE9B23 /* bletest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFAD28EF146812F500DE9B23 /* bletestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFAD28F5146812F500DE9B23 /* bletestTests.h */,
+				CFAD28F6146812F500DE9B23 /* bletestTests.m */,
+				CFAD28F0146812F500DE9B23 /* Supporting Files */,
+			);
+			path = bletestTests;
+			sourceTree = "<group>";
+		};
+		CFAD28F0146812F500DE9B23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFAD28F1146812F500DE9B23 /* bletestTests-Info.plist */,
+				CFAD28F2146812F500DE9B23 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFAD28C3146812F500DE9B23 /* bletest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAD28FA146812F500DE9B23 /* Build configuration list for PBXNativeTarget "bletest" */;
+			buildPhases = (
+				CFAD28C0146812F500DE9B23 /* Sources */,
+				CFAD28C1146812F500DE9B23 /* Frameworks */,
+				CFAD28C2146812F500DE9B23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bletest;
+			productName = bletest;
+			productReference = CFAD28C4146812F500DE9B23 /* bletest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFAD28E7146812F500DE9B23 /* bletestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFAD28FD146812F500DE9B23 /* Build configuration list for PBXNativeTarget "bletestTests" */;
+			buildPhases = (
+				CFAD28E3146812F500DE9B23 /* Sources */,
+				CFAD28E4146812F500DE9B23 /* Frameworks */,
+				CFAD28E5146812F500DE9B23 /* Resources */,
+				CFAD28E6146812F500DE9B23 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFAD28EE146812F500DE9B23 /* PBXTargetDependency */,
+			);
+			name = bletestTests;
+			productName = bletestTests;
+			productReference = CFAD28E8146812F500DE9B23 /* bletestTests.octest */;
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFAD28BB146812F500DE9B23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0730;
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = CFAD28BE146812F500DE9B23 /* Build configuration list for PBXProject "bletest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CFAD28B9146812F500DE9B23;
+			productRefGroup = CFAD28C5146812F500DE9B23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFAD28C3146812F500DE9B23 /* bletest */,
+				CFAD28E7146812F500DE9B23 /* bletestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFAD28C2146812F500DE9B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF30184915A6BE7600712F9F /* 57x57.png in Resources */,
+				CF30184A15A6BE7600712F9F /* 114x114.png in Resources */,
+				CFAD28D3146812F500DE9B23 /* InfoPlist.strings in Resources */,
+				CFAD28DC146812F500DE9B23 /* MainStoryboard_iPhone.storyboard in Resources */,
+				CFAD28DF146812F500DE9B23 /* MainStoryboard_iPad.storyboard in Resources */,
+				CF710813146ADA3400FEAD90 /* Heart.png in Resources */,
+				CF710814146ADA3400FEAD90 /* Human.png in Resources */,
+				CF34B40A15CFE1C900640DFB /* cr_arrow_left.png in Resources */,
+				CF34B40B15CFE1C900640DFB /* cr_arrow_right.png in Resources */,
+				CF34B40C15CFE1C900640DFB /* cr_image.png in Resources */,
+				0E3C8FB9163EBF82004841B3 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAD28E5146812F500DE9B23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAD28F4146812F500DE9B23 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CFAD28E6146812F500DE9B23 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFAD28C0146812F500DE9B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAD28D5146812F500DE9B23 /* main.m in Sources */,
+				CFAD28D9146812F500DE9B23 /* bletestAppDelegate.m in Sources */,
+				CFAD28E2146812F500DE9B23 /* bletestViewController.m in Sources */,
+				CFAD29101468337B00DE9B23 /* PeripheralCell.m in Sources */,
+				CF71080F146AB59F00FEAD90 /* HeartRateViewController.m in Sources */,
+				CF6B76E215B02D1000506E29 /* ServiceViewController.m in Sources */,
+				CFA3C47515B02EC5009FAD3B /* CRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFAD28E3146812F500DE9B23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAD28F7146812F500DE9B23 /* bletestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFAD28EE146812F500DE9B23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFAD28C3146812F500DE9B23 /* bletest */;
+			targetProxy = CFAD28ED146812F500DE9B23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFAD28D1146812F500DE9B23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAD28D2146812F500DE9B23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CFAD28DA146812F500DE9B23 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAD28DB146812F500DE9B23 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CFAD28DD146812F500DE9B23 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAD28DE146812F500DE9B23 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CFAD28F2146812F500DE9B23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFAD28F3146812F500DE9B23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFAD28F8146812F500DE9B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFAD28F9146812F500DE9B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFAD28FB146812F500DE9B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bletest/bletest-Prefix.pch";
+				INFOPLIST_FILE = "bletest/bletest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluegiga.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CFAD28FC146812F500DE9B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bletest/bletest-Prefix.pch";
+				INFOPLIST_FILE = "bletest/bletest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bluegiga.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CFAD28FE146812F500DE9B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bletest.app/bletest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bletest/bletest-Prefix.pch";
+				INFOPLIST_FILE = "bletestTests/bletestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CFAD28FF146812F500DE9B23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bletest.app/bletest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bletest/bletest-Prefix.pch";
+				INFOPLIST_FILE = "bletestTests/bletestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFAD28BE146812F500DE9B23 /* Build configuration list for PBXProject "bletest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAD28F8146812F500DE9B23 /* Debug */,
+				CFAD28F9146812F500DE9B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFAD28FA146812F500DE9B23 /* Build configuration list for PBXNativeTarget "bletest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAD28FB146812F500DE9B23 /* Debug */,
+				CFAD28FC146812F500DE9B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFAD28FD146812F500DE9B23 /* Build configuration list for PBXNativeTarget "bletestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFAD28FE146812F500DE9B23 /* Debug */,
+				CFAD28FF146812F500DE9B23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFAD28BB146812F500DE9B23 /* Project object */;
+}
