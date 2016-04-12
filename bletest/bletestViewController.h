@@ -29,8 +29,13 @@
 
 @interface bletestViewController : UIViewController <CBCentralManagerDelegate, CBPeripheralDelegate, UITableViewDelegate, UITableViewDataSource>
 {
+    ///
     CBCentralManager * manager;
+    
+    /// Array of @c PeripheralCell objects
     NSMutableArray   * peripherals;
+    
+    ///
     CBPeripheral * connected_peripheral;
     
     __weak IBOutlet UILabel *managerState;

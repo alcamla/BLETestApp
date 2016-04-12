@@ -64,6 +64,9 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+/**
+ Indicates the connected peripheral, this connection was stablished in the presenting view controller, which holds the central manager. This method start the search for the given services.
+*/
 - (void)connectPeripheral:(CBPeripheral *)per
 {
     _peripheral=per;

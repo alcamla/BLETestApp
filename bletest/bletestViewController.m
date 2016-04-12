@@ -143,11 +143,13 @@
     NSUInteger t=[peripherals indexOfObjectPassingTest:test];
     if(t!= NSNotFound)
     {
+        // The found peripheral already exists in the peripherals array. Update the related object in the array, and update the table at the given index.
         cell=[peripherals objectAtIndex:t];
         cell.peripheral=peripheral;
         cell.rssi=RSSI;
         [scanResult reloadRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:t inSection:0]] withRowAnimation:UITableViewRowAnimationNone];
     }else{
+        // The found peripheral does not exist yet. Add it to the peripherals array. Add the cell to the  scanResult UITableView.
         cell=[[PeripheralCell alloc] init];
         [peripherals addObject: cell];
         cell.peripheral=peripheral;
@@ -188,7 +190,9 @@
 {
     PeripheralCell* per=[peripherals objectAtIndex:[indexPath row]];
     scanSwitch.on=false;
+    // do not search for other peripherals
     [manager stopScan];
+    // Connect to the selected peripheral
     [manager connectPeripheral:per.peripheral options:nil];
 }
 
